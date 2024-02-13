@@ -13,7 +13,7 @@ session_start();
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/script.js" defer></script>
 </head>
-<header class="open">
+<header class="open-menu">
     <nav>
         <ul>
             <li><a href="/index.php?action=/">Home</a></li>
