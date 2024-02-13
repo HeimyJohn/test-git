@@ -5,7 +5,7 @@ header {
     justify-content: space-between;
 }
 
-header[class="open"] {
+header[class="open-menu"] {
     height: 250px;
 }
 
