@@ -1,7 +1,14 @@
 (() => {
 
-    let button = document.querySelector("header__button");
+    let button = document.querySelector(".header__button");
+    let header = document.querySelector("header");
 
-    console.log(button);
+    let open = () => {
+        header.classList.toggle("open-menu");
+    }
+
+    button.addEventListener('click', () => {
+        open();
+    })
 
 })();
