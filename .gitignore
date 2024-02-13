@@ -1,3 +1,6 @@
+config/const.php
+config/database.php
+
 ##### Windows
 # Windows thumbnail cache files
 Thumbs.db

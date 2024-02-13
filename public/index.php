@@ -1,5 +1,5 @@
 <?php
-
+include('../config/const.php');
 echo '<br \>';
 include('../resources/views/layouts/header.tpl.php');
 

@@ -5,11 +5,13 @@ session_start();
 
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boutique</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
 </head>
 <header>
     <nav>
@@ -21,9 +23,5 @@ session_start();
             <li><a href="/index.php?action=resetCartController">ResetCart</a></li>
         </ul>
     </nav>
+    <button class="header__button"></button>
 </header>
-
-<br>
-<br>
-
-<?php echo "test header" . '<br \>'; ?>
