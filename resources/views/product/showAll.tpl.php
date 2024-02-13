@@ -13,7 +13,7 @@
                 <input type="hidden" value="<?= $product['id'] ?>" name="id">
                 <label for="quantity">Quantité:</label>
                 <input type="number" id="quantity" name="quantity" min="1" value="1">
-                <button type="submit" class="add-to-cart-btn">Ajouter au panier</button>
+                <button type="submit" class="add-to-cart-btn">Add to cart</button>
             </form>
         </div>
     </div>
